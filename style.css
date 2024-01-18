@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fffef0;
+    transition: background-color 250ms;
+}
+
+.pendu {
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.tete-container {
+    display: flex;
+    justify-content: center;
+}
+
+#tete {
+    display: none;
+    position:relative;
+}
+
+#oeilGx {
+    display: none;
+    font-size: 15px;
+    position:absolute;
+    padding-right: 10px;
+}
+
+#oeilDx {
+    display: none;
+    font-size: 15px;
+    position:absolute;
+    padding-left: 10px;
+}
+
+#bouchex {
+    display: none;
+    font-size: 20px;
+    position:absolute;
+}
+
+#oeilG {
+    display: none;
+    font-size: 15px;
+    position:absolute;
+    padding-right: 10px;
+}
+
+#oeilD {
+    display: none;
+    font-size: 15px;
+    position:absolute;
+    padding-left: 10px;
+}
+
+#bouche {
+    display: none;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 15px;
+}
+
+#corp {
+    display: none;
+}
+
+#bras-g {
+    display: none;
+}
+
+#bras-d {
+    display: none;
+}
+
+#jambe-g {
+    display: none;
+}
+
+#jambe-d {
+    display: none;
+}
+
+.buste {
+    display: flex;
+    justify-content: center;
+}
+
+.jambe {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#result-end {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#btn {
+    width: 100px;
+    height: 50px;
+    background-color: #458728;
+    color: #FEFCD0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 1.5px black;
+    outline: none;
+}
+
+#input {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #F9EEBD;
+    font-weight: bold;
+    border: solid 2px black;
+    outline: none;
+}
+
+label {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: 20px;
+    align-items: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#btn-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#btn-guess {
+    width: 90px;
+    height: 40px;
+    background-color: #458728;
+    color: #FEFCD0;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 1.5px black;
+    outline: none;
+}
+
+#input-guess {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #F9EEBD;
+    font-weight: bold;
+    border: solid 2px black;
+    outline: none;
+}
+
+.bouton-input-guess {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="jsp">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer async type="module"></script>
+        <title>Pendu</title>
+    </head>
+    <body>
+        <div class="pendu">
+            <div class="tete-container">
+                <div id="tete">O</div>
+                <div id="oeilGx">X</div>
+                <div id="oeilDx">X</div>
+                <div id="bouchex">_</div>
+                <div id="oeilG">O</div>
+                <div id="oeilD">O</div>
+                <div id="bouche">︶</div>
+            </div>
+            <div class="buste">
+                <div id="bras-g">-</div>
+                <div id="corp">|</div>
+                <div id="bras-d">-</div>
+            </div>
+            <div class="jambe">
+                <div id="jambe-g">/</div>
+                <div id="jambe-d">\</div>
+            </div>
+        </div>
+        <p id="result-end"></p>
+        <p id="result"></p>
+        <div class="bouton-input">
+            <input type="text" id="input" maxlength="1"> 
+            <button id="btn">VALIDER</button>
+        </div>
+        <div class="bouton-input-guess">
+            <input type="text" id="input-guess" minlength="1" placeholder="Guess the word"> 
+            <button id="btn-guess">VALIDER</button>
+        </div>
+    </body>
+</html>
